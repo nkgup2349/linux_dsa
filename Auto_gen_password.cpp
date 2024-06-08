@@ -12,7 +12,7 @@ while(1){
 string password ; 
 string charactor = "ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz0123456789!@#$%&*";
 int num = charactor.length(); 
-srand(static_cast<unsigned>(time(nullptr)));
+srand(time(NULL));
 
 int lenth; 
 cout<<"enter the lenth of password:";
